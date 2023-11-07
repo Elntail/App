@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Wake Up App</string>
+    <string name="welcome_message">PROTOTYPE</string>
+    <string name="fiveLine">_ _ _ _ _</string>
+    <string name="submit_button_label">Submit</string>
+    <string name="NAME">NAME</string>
+    <string name="pet_name_INPUT">PET NAME</string>
+    <string name="pet_name_message">Please enter your pet\'s name</string>
+    <string name="pet">pet</string>
+    <string name="pet_name">Pet name:</string>
+    <string name="coin_count_message">Coin count:</string>
+    <string name="HH_message">Health and Happiness:</string>
+    <string name="quit_button">Exit Button</string>
+    <string name="Alpha">A B C D E F G H I J K L M \n N O P Q R S T U V W X Y Z</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="player_name_message">Please enter your name</string>
+    <string name="enter_username_text">Username</string>
+    <string name="button_enter">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hangman">Hangman</string>
+    <string name="Choice_Text">Please select from the options below.</string>
+    <string name="Temp_Pet_Name">No Pet Name Input</string>
+
+</resources>

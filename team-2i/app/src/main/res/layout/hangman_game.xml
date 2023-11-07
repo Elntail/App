@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="571dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <LinearLayout
+            android:layout_width="264dp"
+            android:layout_height="271dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/gallows"
+                android:layout_width="245dp"
+                android:layout_height="268dp"
+                app:srcCompat="@drawable/tumblr_inline_pg0k73u7bj1rh6ctt_500" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/player_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/guess"
+                android:layout_width="259dp"
+                android:layout_height="63dp"
+                android:ems="10"
+                android:hint="Enter a word or letter"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/submit_guess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_enter"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="194dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/Input_Message"
+                android:layout_width="match_parent"
+                android:layout_height="43dp" />
+
+            <Space
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/used_box"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Temp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
